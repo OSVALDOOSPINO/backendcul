@@ -27,6 +27,7 @@ export class UsersService {
   }
 
   async update(id: number, updateUserDto: UpdateUserDto) {
+    
     const result = await this.usersRepository.update(id, updateUserDto);
   
     return this.usersRepository.findOneBy({ id });

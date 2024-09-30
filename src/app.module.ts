@@ -16,7 +16,7 @@ import { Client } from './clients/entities/client.entity';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: '0620',
+      password: '0606',
       database: 'culdb',
       entities: [
         User,
